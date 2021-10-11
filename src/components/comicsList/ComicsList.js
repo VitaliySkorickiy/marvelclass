@@ -14,7 +14,6 @@ const ComicsList = () => {
     const [offset, setOffset] = useState(192);
     const [comEnded, setComEnded] = useState(false);
 
-
     const { loading, error, getAllComics } = useMarvelService();
 
     useEffect(() => {
